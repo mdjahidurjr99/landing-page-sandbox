@@ -4,7 +4,7 @@
     font-family: "Urbanist", sans-serif;
 }
 .bg-img{
-    background-image: url(/image/banner.png);
+    background-image: url(/image/banner\ -\ Copy.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -517,7 +517,7 @@ main{
 /* comunity section */
 
 .comunity-section{
-    background-image: url(/image/banner.png);
+    background-image: url(/image/banner\ -\ Copy.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
