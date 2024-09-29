@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Sandbox</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <script src="https://kit.fontawesome.com/aef1286f6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="bg-img">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image/sandbox-logo.png" alt="Ostad Logo">
+            </div>
+            <div class="nav-item" id="menu">
+                <ul class="sidebar">
+                    <li onclick="hidesidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Blocks</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="#">Blog</a></li>
+                    <li class="hideOnMobile"><a href="#">Blocks</a></li>
+                    <li class="hideOnMobile"><a href="#">Documentation</a></li>
+                    <li class="hideOnMobile"><a href="#">Contact</a></li>
+                    <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="hero-section">
+                <h1>We bring solutions to <br><span> make life easier</span></h1>
+                <p>We are a creative company that focuses on long term relationships with customers.</p>
+                <button type="button">Learn More</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+
+            <div class="card">
+                <img src="/image/service-img/1.png" alt="Content Marketing">
+                <h3>Content Marketing</h3>
+                <p>
+                    Nulla vitae elit libero, a
+                    pharetra augue. Donec id elit
+                    non mi porta gravida at eget
+                    metus cras justo.
+                </p>
+                <a href="#">Learn More <img src="/image/service-img/Icon.svg" alt="Learn More"></a>
+            </div>
+            <div class="card">
+                <img src="/image/service-img/2.png" alt="Content Marketing">
+                <h3>Social Engagement</h3>
+                <p>
+                    Nulla vitae elit libero, a
+                    pharetra augue. Donec id elit
+                    non mi porta gravida at eget
+                    metus cras justo.
+                </p>
+                <a href="#">Learn More <img src="/image/service-img/Icon.svg" alt="Learn More"></a>
+            </div>
+            <div class="card">
+                <img src="/image/service-img/3.png" alt="Content Marketing">
+                <h3>Identity & Branding</h3>
+                <p>
+                    Nulla vitae elit libero, a
+                    pharetra augue. Donec id elit
+                    non mi porta gravida at eget
+                    metus cras justo.
+                </p>
+                <a href="#">Learn More <img src="/image/service-img/Icon.svg" alt="Learn More"></a>
+            </div>
+            <div class="card">
+                <img src="/image/service-img/4.png" alt="Content Marketing">
+                <h3>Product Design</h3>
+                <p>
+                    Nulla vitae elit libero, a
+                    pharetra augue. Donec id elit
+                    non mi porta gravida at eget
+                    metus cras justo.
+                </p>
+                <a href="#">Learn More <img src="/image/service-img/Icon.svg" alt="Learn More"></a>
+            </div>
+        </section>
+        <section>
+            <div class="why-choose-text">
+                <h4>
+                    Why Choose Sandbox?
+                </h4>
+                <h3>
+                    Here are a few reasons why our <br>customers choose Sandbox.
+                </h3>
+            </div>
+            <div class="why-choose">
+                <div class="choose">
+                    <img src="/image/why-choose/choose1.svg" alt="choose 1">
+                    <div class="choose-text">
+                        <h3>
+                            Collect Ideas
+                        </h3>
+                        <p>
+                            Duis mollis commodo luctus cursus
+                            commodo tortor mauris.
+                        </p>
+                    </div>
+                </div>
+                <div class="choose">
+                    <img src="/image/why-choose/choose2.svg" alt="choose 1">
+                    <div class="choose-text">
+                        <h3>
+                            Data Analysis
+                        </h3>
+                        <p>
+                            Duis mollis commodo luctus cursus
+                            commodo tortor mauris.
+                        </p>
+                    </div>
+                </div>
+                <div class="choose">
+                    <img src="/image/why-choose/choose3.svg" alt="choose 1">
+                    <div class="choose-text">
+                        <h3>
+                            Finalize Product
+                        </h3>
+                        <p>
+                            Duis mollis commodo luctus cursus
+                            commodo tortor mauris.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="collect-idea">
+                <img src="/image/collact-idea.png" alt="collect idea">
+                <div class="idea-text">
+                    <h2>
+                        Collect Ideas
+                    </h2>
+                    <p>
+                        Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non
+                        metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                        eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                        ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.
+                    </p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Aenean eu leo quam. Pellentesque ornare.</li>
+                        <li><i class="fa-solid fa-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+                        <li><i class="fa-solid fa-check"></i>Donec id elit non mi porta gravida at eget.</li>
+                    </ul>
+                    <button type="button">
+                                Learn More
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="save-t-m">
+                <div class="save-t-m-text">
+                    <h3>
+                        Save Time and Money
+                    </h3>
+                    <h2>
+                        Save your time and money by
+                        choosing our professional team.
+                    </h2>
+                </div>
+                <div class="save-chat">
+                    <div class="chat">
+                        <h3 class="chat-img-1">95 <span>%</span></h3>
+                        <h4>Customer Satisfaction</h4>
+                    </div>
+                    <div class="chat">
+                        <h3 class="chat-img-2">80 <span>%</span></h3>
+                        <h4>Increased Revenue</h4>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="review-section">
+                <div class="review">
+                    <img src="/image/review.jpg" alt="">
+                    <div class="review-text">
+                        <h3>
+                            ★
+                        </h3>
+                        <p>
+                            “Vivamus sagittis lacus vel augue laoreet rutrum
+                            faucibus dolor auctor. Vestibulum ligula porta felis
+                            euismod semper. Cras justo odio.”
+                        </p>
+                        <h4>
+                            Coriss Ambady
+                        </h4>
+                        <h5>
+                            Financial Analyst
+                        </h5>
+                        <div class="review-button">
+                            <button></button><button></button><button></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="why-choose-text">
+                <h4>
+                    Latest Projects
+                </h4>
+                <h3>
+                    Check out some of our awesome projects <br>with creative idea and great desing.
+                </h3>
+            </div>
+            <div class="leatest-products">
+                <div class="product">
+                    <img src="/image/lestest/leatest-1.png" alt="product">
+                    <div class="product-text">
+                        <h3>
+                            Cras Fermentum Sem
+
+                        </h3>
+                        <h5>
+                            Stationary
+                        </h5>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="/image/lestest/letest-2.png" alt="product">
+                    <div class="product-text">
+                        <h3>
+                            Mollis Ipsum Mattis
+
+                        </h3>
+                        <h5>
+                            Magazine, Book
+                        </h5>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="/image/lestest/leatest-3.png" alt="product">
+                    <div class="product-text">
+                        <h3>
+                            Ipsum Ultricies Cursus
+
+                        </h3>
+                        <h5>
+                            Packaging
+                        </h5>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="product-button">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        </section>
+        <section>
+            <div class="makes-diferent-section">
+                <div class="makes-diferent">
+                    <div class="diferent-img">
+                        <img class="img-1" src="/image/makes-diferent/diferent-a.jpg" alt="diferent-img">
+                        <img class="img-2" src="/image/makes-diferent/diferent-b.png" alt="diferent-img">
+                        <img class="img-3" src="/image/makes-diferent/diferent-c.png" alt="diferent-img">
+                        
+                    </div>
+                    <div class="make-diferent-text">
+                        <h4>
+                            What Makes Us Different?
+                        </h4>
+                        <h3>
+                            We bring solutions to make life easier for our customers.
+                        </h3>
+                        <div class="diferent-plans">
+                            <div class="plan">
+                                <img src="/image/makes-diferent/diferent-1.svg" alt="plan 1">
+                                <div class="plan-text">
+                                    <h3>Creativity</h3>
+                                <p>
+                                    Curabitur blandit lacus
+                                    porttitor ridiculus mus.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="plan">
+                                <img src="/image/makes-diferent/diferent-2.svg" alt="plan 1">
+                                <div class="plan-text">
+                                    <h3>Innovative Thinking</h3>
+                                <p>
+                                    Curabitur blandit lacus
+                                    porttitor ridiculus mus.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="plan">
+                                <img src="/image/makes-diferent/diferent-3.svg" alt="plan 1">
+                                <div class="plan-text">
+                                    <h3>Rapid Solutions</h3>
+                                <p>
+                                    Curabitur blandit lacus
+                                    porttitor ridiculus mus.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="plan">
+                                <img src="/image/makes-diferent/diferent-4.svg" alt="plan 1">
+                                <div class="plan-text">
+                                    <h3>Top-Notch Support</h3>
+                                <p>
+                                    Curabitur blandit lacus
+                                    porttitor ridiculus mus.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="comunity-section">
+                <div class="comunity-banner">
+                    <div class="comunity-text">
+                        <h4>
+                            Join Our Community
+                        </h4>
+                        <h1>We are trusted  by over 5000+ clients. <br>Join them now and grow your business.</h1>
+                    <button type="button">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <div class="copyright-section">
+                <img src="/image/sandbox-logo.png" alt="logo">
+                <p>
+                    © 2024 Sandbox. <br> All rights reserved.
+                </p>
+                <div class="social-media">
+                    <a href="#"><img src="/image/makes-diferent/twitter.svg" alt="facebook"></a>
+                    <a href="#"><img src="/image/makes-diferent/facebook.svg" alt="twitter"></a>
+                    <a href="#"><img src="/image/makes-diferent/website.svg" alt="instagram"></a>
+                    <a href="#"><img src="/image/makes-diferent/instagram.svg" alt="twitter"></a>
+                    <a href="#"><img src="/image/makes-diferent/youtube.svg" alt="instagram"></a>
+                </div>
+    
+            </div>
+            <div class="get-in-touch-section">
+                <h4>Get In Touch</h4>
+                <p class="get-in-touch">
+                    Moonshine St. 14/05 <br>
+                    Light City, London, <br>
+                    United Kingdom
+                </p>
+                <p>
+                    <a href="mailto:info@sandbox.com">info@sandbox.com</a>
+                </p>
+                <p>
+                    00 (123) 456 78 90
+                </p>
+                
+            </div>
+            <div class="learn-more">
+                <h4>Learn More</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="our-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter to get our
+                    news & deals delivered to you.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Enter your email" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+    </script>
+
+</body>
+</html>

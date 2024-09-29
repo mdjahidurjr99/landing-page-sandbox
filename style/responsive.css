@@ -1,0 +1,80 @@
+@media (max-width: 480px) {
+    .sidebar{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 776px) {
+    main{
+        padding: 10px;
+    }
+    .menu-button{
+        display: block;
+    }
+    .hideOnMobile{
+        display: none;
+    }
+    .navbar{
+        padding: 30px 20px;
+    }
+    
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .why-choose{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collect-idea{
+        flex-direction: column;
+    }
+    .idea-text{
+        padding: 10px;
+    }
+    .save-t-m{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 10px;
+    }
+    .save-t-m-text{
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .save-chat{
+        flex-direction: column;
+    }
+    .review{
+        flex-direction: column;
+    }
+    .review-text{
+        padding: 10px 10px 30px 10px;
+    }
+    .leatest-products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product img {
+        width: 100%;
+    }
+    .makes-diferent{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .make-diferent-text{
+        text-align: center;
+    }
+    .diferent-plans{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: left;
+        padding-left: 10px;
+    }
+    .footer-section{
+        grid-template-columns: repeat(1, 1fr);
+        
+        text-align: center;
+    }
+    .social-media{
+        justify-content: center;
+    }
+}
