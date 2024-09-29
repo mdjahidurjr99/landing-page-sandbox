@@ -31,7 +31,7 @@ p{
     line-height: 29px;
 }
 
-.navbar ul{
+nav ul{
     display: flex;
     
     gap: 50px;
@@ -49,6 +49,7 @@ p{
     display: none;
 }
 .sidebar{
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -60,7 +61,6 @@ p{
     z-index: 999;
     background-color: #ffffff00;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
